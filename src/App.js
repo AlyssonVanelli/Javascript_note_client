@@ -1,6 +1,12 @@
 import React from "react";
+import "./App.scss";
+import Router from './routes';
 
-const App = () => <p>JavaScript Notes</p>
+const App = () => (
+  <div>
+    <Router />
+  </div>
 
+);
 
 export default App;
